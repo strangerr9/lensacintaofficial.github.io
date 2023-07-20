@@ -1,0 +1,377 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("me(paya bunga).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.113);
+    z-index: -1;
+}
+
+.header-page1 {
+    margin: 2% 0;
+    width: 100%;
+    display: flex;
+
+}
+.header-page2 {
+    padding: 2% 0;
+    width: 100%;
+    display: flex;
+    background-color: black ;
+
+}
+
+.page1-grid-a {
+    width: 40%;
+    align-items: right;
+    text-align: right;
+}
+
+.page1-grid-b {
+    width: 60%;
+}
+
+.page1-grid-b ul li {
+    letter-spacing: 5px;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    float: left;
+    padding: 1% 3%;
+    margin-right: 2%;
+    
+    
+}
+
+
+.page1-grid-a img {
+
+    border-right: solid;
+    border-color: white;
+    
+}
+
+
+.body-content {
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+.body-content h1 {
+    color: #FF5714;
+    font-size: 90px;
+    letter-spacing: 10px;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0px 0px 5px #6b51516c;
+  }
+
+  .body-content h2 {
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 20px;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0px 0px 3px #0000005d;
+  }
+
+.footer {
+    color: white;
+    width: 100%;
+    display: flex;
+}
+.footer-grid-a{
+    padding-top: 13%;
+    padding-left: 10%;
+    width: 50%;
+    letter-spacing: 3px;
+    font-size: 9px;
+    font-family: 'Outfit', sans-serif;
+}
+.footer-grid-b{
+
+    padding: 13% 10% 0% 0%;
+    text-align: right;
+    width: 50%;
+}
+
+.footer-grid-b i{
+    
+    text-align: left;
+    padding: 2% 2%;
+    font-size: 20px;
+
+}
+
+.select{
+    background-color: #FF5714;
+    box-shadow: 0 0 25px #FF5714;
+}
+
+ul li a{
+    padding-top: 5%;
+    border-bottom: solid;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn {
+
+    padding: 1em 1.5em;
+    color: #ffedd3;
+    text-transform: uppercase;
+    position: relative;
+    transition: .5s ease;
+  }
+  
+
+  
+  .btn:hover {
+    transition-delay: .5s;
+    box-shadow: 0 0 5px #FF5714,
+                0 0 25px #FF5714,
+                0 0 50px #FF5714,
+                0 0 100px #FF5714;
+  }
+  
+  
+  .btn:hover::before {
+    width: 100%;
+  }
+  
+  .btn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #FF5714;
+    transition: .4s ease;
+    z-index: -1;
+
+  }
+  
+  .btn:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: #FF5714;
+  }
+  
+  .footer-grid-b i:hover{
+    transition:0.4 ease ;
+    color:#FF5714;
+  }
+
+  .footer-grid-b a {
+    color: #ffffff;
+  }
+
+  .footer-grid-b a::after {
+    color: #ffffff;
+  }
+
+  .mifzal {
+    background-color: rgb(5, 5, 4);
+    width: 100%;
+    display: flex;
+  }
+
+  .page2-grid-c1-a{
+    
+    float: left;
+    width: 40%;
+    padding: 5% 10%;
+}
+
+.page2-grid-c1-a img
+{
+    border-radius: 30px;
+    box-shadow: 0 0 5px #ffffff,
+    0 0 25px #020202,
+    0 0 50px #ffffff39,
+    0 0 100px #221f1e;
+}
+  .page2-grid-c1-b{
+    float: left;
+    width: 60%;
+    padding: 4% 5%;
+}
+
+.page2-grid-c1-b p{
+    text-align: left;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.irfan
+{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    color: black;
+}
+
+.page2-grid-c2-a{
+    width: 60%;
+    padding: 5% 10%;
+}
+
+.page2-grid-c2-b img
+{
+    border-radius: 30px;
+    box-shadow: 0 0 5px #ffffff,
+    0 0 25px #020202,
+    0 0 50px #ffffff,
+    0 0 100px #221f1e;
+}
+  .page2-grid-c2-b{
+    width: 40%;
+    padding: 4% 5%;
+}
+
+.page2-grid-c2-a p{
+    text-align: right;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.page2-grid-c2-a h2{
+  text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
+
+.about-lensa-cinta {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+}
+
+
+.about-lensa-cinta-grid-a img
+{
+  text-align: center;
+  padding: 2%;
+  width: 90%;
+}
+
+.about-lensa-cinta-grid-a {
+  padding: 3%;
+  text-align: left;
+}
+
+.about-lensa-cinta-grid-a a{
+  text-decoration: none;
+  color: black;
+
+}
+
+.about-lensa-cinta-grid-b,
+.about-lensa-cinta-grid-c{
+  text-align: left;
+  padding: 2%;
+  font-family: 'Outfit', sans-serif;
+
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+
+@media screen and (max-width: 800px) {
+  .body-content h1,
+  .body-content h2{
+    font-size: 5vw;
+  }
+
+  .mifzal{
+    display: inline-block;
+  }
+  .irfan{
+    display: inline-block;
+  }
+
+
+  .page1-grid-a img {
+      width: 100%;
+      max-width: 100%;
+  }
+
+  .page2-grid-c1-a img,
+  .page2-grid-c2-b img {
+    
+      width: 90%;
+      max-width: 100%;
+      height: auto;
+  }
+
+  .page2-grid-c1-a,
+  .page2-grid-c1-b,
+  .page2-grid-c2-a,
+  .page2-grid-c2-b {
+      width: 100%;
+      padding: 1%;
+  }
+
+  .page1-grid-a,
+  .page1-grid-b {
+      width: 100%;
+  }
+
+  .about-lensa-cinta{
+    height: 230vh;
+    display: block;
+  }
+}
